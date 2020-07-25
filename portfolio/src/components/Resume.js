@@ -4,7 +4,7 @@ import "../styles/Resume.css"
 function Resume() {
     return (
         <div id="resume">
-            <div className="card mb-3 p-5 d-flex">
+            <div className="card mb-3 p-2 d-flex">
                 <div className="row no-gutters border-bottom">
                     <div className="col-md-4">
                         <div className="card-body">
@@ -17,7 +17,6 @@ function Resume() {
                             <h6 className="card-title">Full Stack Development &bull; August 2020</h6>
                             <p className="card-text text-muted">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                         </div>   
-                            <br />
                         <div className="card-body text-left" id="school">
                             <h5 className="card-title">University of Tennessee</h5>
                             <h6 className="card-title">Journalism &amp; Electronic Media &bull; May 2010</h6>
@@ -38,15 +37,15 @@ function Resume() {
                             <h6 className="card-title">Network Operations Technician &bull; December 2015 - February 2019</h6>
                             <p className="card-text text-muted">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                         </div>
-                            <br />
                         <div className="card-body text-left" id="school">
                             <h5 className="card-title">Jewelry Television</h5>
-                            <h6 className="card-title">Technical Direct, Production Member &bull; September 2010 - December 2015</h6>
+                            <h6 className="card-title">Technical Director, Production Member &bull; September 2010 - December 2015</h6>
                             <p className="card-text text-muted">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                         </div>
                     </div>
                 </div>
-                <div className="row no-gutters">
+                {/* ================================================================================ */}
+                <div className="row no-gutters mt-2">
                     <div className="col-md-4">
                         <div className="card-body">
                         <h4 className="card-title" id="education">Skills</h4>
