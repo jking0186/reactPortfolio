@@ -15,8 +15,8 @@ function App() {
         <Navbar />
         <Header />
         <About />
-        <Route exact path="/#portfolio" component={Portfolio}/>
-        <Route exact path="/#resume" component={Resume}/>
+        <Resume />
+        <Portfolio />
         <Route exact path="/#contact" component={Contact}/>
         <Footer />
       </div>
