@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import Navbar from './components/Navbar'
 import Header from './components/Header'
 import About from './components/About'
@@ -17,7 +17,7 @@ function App() {
         <About />
         <Resume />
         <Portfolio />
-        <Route exact path="/#contact" component={Contact}/>
+        <Contact />
         <Footer />
       </div>
     </Router>

@@ -1,0 +1,10 @@
+.portfolio {
+    position: relative;
+    height: 600px;
+    min-height: 500px;
+    width: 100%;
+    background: rgb(220, 220, 220);
+    background-size: cover;
+    -webkit-background-size: cover;
+    overflow: hidden;
+}
