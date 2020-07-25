@@ -27,6 +27,11 @@
     margin: 20px;
 }
 
+.btn:hover {
+    padding: 20px;
+    margin: 20px;
+}
+
 .social,
 .fa-github,
 .fa-linkedin {
