@@ -1,0 +1,24 @@
+#resume {
+    position: relative;
+    height: 1200px;
+    min-height: 500px;
+    width: 100%;
+    background: #fff;
+    background-size: cover;
+    -webkit-background-size: cover;
+    text-align: center;
+    overflow: hidden;
+}
+
+#education {
+    text-decoration: underline;
+    text-decoration-color: #5bc0de;
+    line-height: 20px;
+    margin: 5px;
+    padding: 10px;
+}
+
+#school {
+    line-height: 30px;
+}
+
