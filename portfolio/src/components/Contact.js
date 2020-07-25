@@ -32,7 +32,7 @@ function Contact() {
                     </div>
                 </div>
                 <div className="float-right mr-4">
-                    <button>Submit</button>
+                    <button>SUBMIT</button>
                 </div>
             </form>
         </div>
