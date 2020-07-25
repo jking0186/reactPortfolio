@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap" rel="stylesheet');
+
+.navbar {
+    background: #121212;
+    height: 60px;
+}
+
+.navbar a {
+    color: white;
+    font-family: 'Wallpoet', Arial, Helvetica, serif, sans-serif;
+    text-decoration: none;
+    margin-bottom: 5px;
+}  
+
+.navbar a:hover {
+    color: #5bc0de;
+}
