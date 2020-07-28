@@ -3,7 +3,7 @@ import "../styles/Contact.css"
 
 function Contact() {
     return (
-        <div className="contact">
+        <div id="contact">
         
             <form className="col-6 mt-5 container">
                 <h2 className="text-light mb-3">Send Me A Message</h2>

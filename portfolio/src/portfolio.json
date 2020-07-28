@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Password Generator",
+        "category": "Generates password based on the users criteria",
+        "image": "https://cdn.pixabay.com/photo/2018/05/14/16/25/cyber-security-3400657_1280.jpg",
+        "url": "https://jking0186.github.io/hw3-pw-generator/"
+    },
+    {
+        "title": "Eat Da Burger",
+        "category": "Create your burger and devour your burger",
+        "image": "https://cdn.pixabay.com/photo/2020/04/03/07/10/burger-4997675_1280.jpg",
+        "url": "https://hydro-smarties-52741.herokuapp.com/"
+    },
+    {
+        "title": "The Mix",
+        "category": "App that helps you choose your drink and your music for any occasion",
+        "image": "https://cdn.pixabay.com/photo/2015/10/23/22/39/party-1003838_1280.jpg",
+        "url": "https://jking0186.github.io/Mixer/"
+    },
+    {
+        "title": "First Impressions",
+        "category": "An app that helps you plan an outing based on your location",
+        "image": "https://cdn.pixabay.com/photo/2015/06/30/18/35/st-826687_1280.jpg",
+        "url": "https://pacific-basin-52237.herokuapp.com/"
+    },
+    {
+        "title": "Employee Directory",
+        "category": "Sort and filter through an employee directory for easy search",
+        "image": "https://cdn.pixabay.com/photo/2017/03/31/17/39/avatar-2191918_1280.png",
+        "url": "https://jking0186.github.io/employeeDirectory/"
+    },
+    {
+        "title": "Fitness Tracker",
+        "category": "An app that lets you track and keep a log your workouts",
+        "image": "https://cdn.pixabay.com/photo/2019/10/04/05/20/gym-4524814_1280.png",
+        "url": "https://elegant-chocolatine-21071.herokuapp.com/?id=5f1355446bc18d001770924d"
+    }
+]
