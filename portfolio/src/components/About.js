@@ -4,7 +4,7 @@ import "../styles/About.css";
 
 function About() {
     return (
-        <div className="about">
+        <div id="about">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6 card-body aboutme">

@@ -1,43 +1,29 @@
 import React from "react";
 import "../styles/Navbar.css";
-import { Link, useLocation } from "react-router-dom";
 
 function Navbar() {
-    const location = useLocation();
     return (
-            <nav className="navbar justify-content-center">
+            <nav className="navbar sticky-top justify-content-center">
             <ul className="nav">
                 <li className="nav-item">
-                    <Link
-                        to="/"
-                        className={location.pathname === "/" ? "nav-link active" : "nav-link"}
-                    >
-                        About
-                    </Link>
+                    <a href="#about">
+                        ABOUT
+                    </a>
                 </li>
                 <li className="nav-item">
-                    <Link
-                        to="/"
-                        className={location.pathname === "/#resume" ? "nav-link active" : "nav-link"}
-                    >
-                        Resumé
-                    </Link>
+                    <a href="#resume">
+                        RESUMÉ
+                    </a>
                 </li>
                 <li className="nav-item">
-                    <Link
-                        to="/"
-                        className={location.pathname === "/#portfolio" ? "nav-link active" : "nav-link"}
-                    >
-                        Portfolio
-                    </Link>
+                    <a href="#portfolio">
+                        PORTFOLIO
+                    </a>
                 </li>
                 <li className="nav-item">
-                    <Link
-                        to="/discover"
-                        className={location.pathname === "/#contact" ? "nav-link active" : "nav-link"}
-                    >
-                        Contact
-                    </Link>
+                    <a href="#contact">
+                        CONTACT
+                    </a>
                 </li>
         </ul>
         </nav>

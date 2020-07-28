@@ -7,6 +7,7 @@ import Portfolio from './components/Portfolio'
 import Resume from './components/Resume'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import portfolio from './portfolio.json'
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         <Header />
         <About />
         <Resume />
-        <Portfolio />
+        {portfolio.map( portfolios => <Portfolio key={portfolios.id} {...portfolios}/>)}
         <Contact />
         <Footer />
       </div>
