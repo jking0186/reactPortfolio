@@ -1,5 +1,5 @@
 # ReactPortfolio
-![homepage](src/assets/images/homepage.png)
+![homepage](portfolio/src/assets/images/homepage.png)
 
 ![badge](https://img.shields.io/badge/License-None-blue.svg)
 
